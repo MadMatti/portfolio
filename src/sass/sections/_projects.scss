@@ -34,6 +34,16 @@
         margin-bottom: 4.8rem;
       }
 
+      ul {
+        list-style-type: disc; // Style of bullet points
+        margin-left: 20px; // Adjust bullet point indentation
+        padding-left: 0; // Reset padding-left to align with the above content
+      }
+      li {
+        margin-bottom: 0.5rem; // Space between bullet points
+        font-size: medium;
+      }
+
       &-title {
         font-weight: bold;
         margin-bottom: 1.8rem;
@@ -50,7 +60,7 @@
     }
 
     &__image {
-      width: 90%;
+      width: 60%;
       margin: 0 auto;
 
       @include respond(tab-land) {
